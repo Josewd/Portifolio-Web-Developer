@@ -1,0 +1,21 @@
+$fontMain: 'Khand', sans-serif;
+$fontHand:  'Smooch', cursive;
+
+.Container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .Title {
+    font-family: $fontHand;
+    font-size: 100px;
+  }
+
+  .Subtitle {
+    font-family: $fontMain;
+    font-size: 30px; 
+  }
+}
